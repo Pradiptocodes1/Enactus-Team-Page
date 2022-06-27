@@ -1,0 +1,250 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #222222;
+  font-family: "Montserrat", sans-serif;
+}
+.img-fluid2 {
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+}
+.img-fluid3 {
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.card {
+  position: relative;
+}
+
+.Members {
+  position: absolute;
+  left: 11px;
+  top: 10px;
+  border-radius: 50px;
+  width: 270px;
+  height: 280px;
+}
+.MemberName {
+  position: relative;
+  top: -50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.PartA {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 100px;
+  padding: 0px;
+}
+.PartB {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 560px;
+}
+
+@media (max-width: 970px) {
+  .PartB {
+    margin-top: 250px;
+  }
+  .PartA {
+    margin-top: 90px;
+  }
+  .YellowBox {
+    height: auto;
+    width: 100px;
+  }
+
+  .Members {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: auto;
+  }
+  .MemberName {
+    position: relative;
+    top: -30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .responsive {
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .PartB {
+    margin-top: 200px;
+  }
+  .PartA {
+    margin-top: 80px;
+  }
+  .YellowBox {
+    height: auto;
+    width: 100px;
+  }
+
+  .Members {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    border-radius: 10px;
+    width: 80px;
+    height: auto;
+  }
+  .MemberName {
+    position: relative;
+    top: -30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+
+.responsive {
+  padding: 0px;
+}
+}
+@media (max-width: 1100px) {
+  .PartA {
+    margin-top: 60px;
+  }
+
+  .responsive {
+    padding: 0px;
+  }
+  
+}
+@media (max-width: 400px) {
+  .PartB {
+    margin-top: 130px;
+  }
+  .PartA {
+    margin-top: 10px;
+  }
+  .YellowBox {
+    height: auto;
+    width: 60px;
+  }
+
+  .Members {
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    border-radius: 10px;
+    width: 49px;
+    height: auto;
+  }
+  .MemberName {
+    position: relative;
+    top: -20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .responsive {
+    padding: 0px;
+  }
+}
+  @media (min-width: 400px) and (max-width: 500px) {
+    .PartA{
+      margin-top: 20px;
+    }
+    .PartB{
+      margin-top: 150px;
+    }
+    .YellowBox {
+      height: auto;
+      width: 60px;
+    }
+
+    .Members {
+      position: absolute;
+      left: 5px;
+      top: 6px;
+      border-radius: 10px;
+      width: 49px;
+      height: auto;
+    }
+    .MemberName {
+      position: relative;
+      top: -20px;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 200px) and (max-width: 300px) {
+    .PartA{
+      margin-top: 20px;
+    }
+    .PartB{
+      margin-top: 100px;
+    }
+    .YellowBox {
+      height: auto;
+      width: 60px;
+    }
+
+    .Members {
+      position: absolute;
+      left: 5px;
+      top: 6px;
+      border-radius: 10px;
+      width: 49px;
+      height: auto;
+    }
+    .MemberName {
+      position: relative;
+      top: -20px;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 12px;
+    }
+  }
+    @media (min-width: 1100px)and (max-width: 1300px){
+      .PartB{
+        margin-top: 400px;
+      }
+      .PartA{
+        margin-top: 30px;
+      }
+      .YellowBox{
+        height: auto;
+        width: 250px;
+      }
+      .Members {
+        position: absolute;
+        left: 11px;
+        top: 10px;
+        border-radius: 50px;
+        width: 230px;
+        height: auto;
+      }
+      .MemberName {
+        position: relative;
+        top: -50px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+      }
+      
+    }
+  
+
